@@ -1,75 +1,50 @@
-# 🌍 BrazilGeoAPI
+🌍 **BrazilGeoAPI**
+BrazilGeoAPI is an API that provides geographical information about cities and states in Brazil. This project is part of a development challenge and aims to create a robust API with authentication, registration, search, and data import functionalities.
 
-A BrazilGeoAPI é uma API que fornece informações geográficas sobre cidades e estados do Brasil. Este projeto é parte de um desafio de desenvolvimento e visa criar uma API robusta com funcionalidades de autenticação, cadastro, pesquisa e importação de dados.
+🚀 **Features**
+**Authentication and Authorization:** The API offers secure authentication and authorization to protect sensitive data.
 
-## 🚀 Funcionalidades
+**Email and Password Registration:** Users can register on the platform to access protected resources.
 
-- **Autenticação e Autorização:** A API oferece autenticação segura e autorização para proteger os dados sensíveis.
+**Login (Token, JWT):** Authentication is based on JWT tokens to ensure the security of sessions.
 
-- **Cadastro de E-mail e Senha:** Os usuários podem se cadastrar na plataforma para acessar recursos protegidos.
+**CRUD of Location:** The API allows creating, reading, updating, and deleting information about codes, states, and cities in Brazil.
 
-- **Login (Token, JWT):** A autenticação é baseada em tokens JWT para garantir a segurança das sessões.
+**City and State Search:** Users can search for cities and states based on specific criteria.
 
-- **CRUD de Localidade:** A API permite criar, ler, atualizar e excluir informações sobre códigos, estados e cidades do Brasil.
+**Data Import:** It is possible to import geographical data from an Excel file.
 
-- **Pesquisa por Cidade e Estado:** Os usuários podem pesquisar cidades e estados com base em critérios específicos.
+💫 **Technologies Used**
+- **.NET 7:** Version of the .NET framework for application development.
+- **Asp.Net Core 7:** Microsoft's framework for developing APIs and web applications.
+- **Entity Framework Core:** ORM technology for object and database entity relationships, using the Code First approach to generate tables from entity classes.
+- **SQL Server:** Microsoft's Database Management System (DBMS) chosen for this project.
+- **FLUNT:** Notification pattern developed by Balta.io.
+- **CQRS:** Architectural pattern designed to separate responsibilities between commands and queries (Command Query Responsibility Segregation).
+- **Adapter:** The Adapter pattern acts as a bridge between two incompatible interfaces; we use it to transform an entity into a Dto.
+- **Clean Architecture:** Clean Architecture allows changes to have isolated impacts and makes the system easily extendable and maintainable.
 
-- **Importação de Dados:** É possível importar dados geográficos a partir de um arquivo Excel.
+[![Image](link_to_image)](https://brasilgeowebapi.azurewebsites.net)
 
-## 💫   Tecnologias Utilizadas
+**API URL:** [https://brasilgeowebapi.azurewebsites.net](https://brasilgeowebapi.azurewebsites.net)
 
-- **.NET 7:** Versão do Framework .NET para desenvolvimento de aplicações.
+**Swagger Docs:** [https://brasilgeowebapi.azurewebsites.net/index.html/index.html](https://brasilgeowebapi.azurewebsites.net/index.html/index.html)
 
-- **Asp.Net Core 7:** Framework para desenvolvimento de Apis e aplicações web da Microsoft.
+📦 **How to Use**
+1. Clone this repository.
+2. Set up the development environment and necessary dependencies.
+3. Run the application.
+4. Access the API documentation (Swagger) to understand available routes and functionalities.
+5. Start using the API's features.
 
-- **Entity Framework core:** tecnologia de ORM para o relacionamenteo entre objectos e entidades do banco de dados, usamos tambem a abordagem Code First para gerar as tabelas apartir das classes de entidaide.
+🤝 **Contribution**
+Feel free to contribute improvements, bug fixes, and new features. To contribute, follow these steps:
+1. Fork this repository.
+2. Create a branch for your contribution: `git checkout -b feature/your-feature`.
+3. Develop and test your changes.
+4. Commit the changes: `git commit -m 'Add your message here'`.
+5. Push the changes to your fork: `git push origin feature/your-feature`.
+6. Create a pull request in this repository.
 
-- **SQL Server:** Sistema de Gestão de Base de Dados SGBD da Microsoft escolhido para o respectivo projecto.
-
-- **FLUNT:** Padráo de Notificação desenvolvido pela Balta.io.
-
-- **CQRS:** Padrão arquitectural com o proposito de separar as responsabilidade entre comandos e consultas (Command Query Responsability Segregation).
-
--  **Adapter:** O padrão Adapter atua como uma ponte entre duas interfaces incompatíveis, para transformar uma entidade em um Dto usamos o padrão adapter.
-  
--  **Clean Architecture:** Arquitetura Limpa permite que as mudanças tenham impacto isolado e permite que o sistema seja facilmente estendido e mantido. 
-
-
-     ![image](https://github.com/RaMadaSilva/BrasilGeoWebApi/assets/91338367/6931f1b7-5d8e-425d-8a07-cc52ba5a00e3)
-
-## Link da API Publicada e Swagger 🔗
-
-- API URL: https://brasilgeowebapi.azurewebsites.net
-- Swagger Docs: https://brasilgeowebapi.azurewebsites.net/index.html/index.html
-
-## 📦 Como Usar
-
-1. Clone este repositório.
-
-2. Configure o ambiente de desenvolvimento e as dependências necessárias.
-
-3. Execute a aplicação.
-
-4. Acesse a documentação da API (Swagger) para entender as rotas e funcionalidades disponíveis.
-
-5. Comece a utilizar as funcionalidades da API.
-
-## 🤝 Contribuição
-
-Sinta-se à vontade para contribuir com melhorias, correções de bugs e novas funcionalidades. Para contribuir, siga os passos:
-
-1. Faça um fork deste repositório.
-
-2. Crie uma branch para sua contribuição: `git checkout -b feature/sua-feature`.
-
-3. Desenvolva e teste suas alterações.
-
-4. Faça commit das alterações: `git commit -m 'Adicione sua mensagem aqui'`.
-
-5. Envie as alterações para seu fork: `git push origin feature/sua-feature`.
-
-6. Crie um pull request neste repositório.
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+📄 **License**
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
