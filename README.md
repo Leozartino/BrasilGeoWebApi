@@ -24,10 +24,6 @@ BrazilGeoAPI is an API that provides geographical information about cities and s
 
 ![image](https://github.com/RaMadaSilva/BrasilGeoWebApi/assets/91338367/6931f1b7-5d8e-425d-8a07-cc52ba5a00e3)
 
-**API URL:** [https://brasilgeowebapi.azurewebsites.net](https://brasilgeowebapi.azurewebsites.net)
-
-**Swagger Docs:** [https://brasilgeowebapi.azurewebsites.net/index.html/index.html](https://brasilgeowebapi.azurewebsites.net/index.html/index.html)
-
 ## How to Use 🔍
 
 1. Clone this repository.
